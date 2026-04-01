@@ -5,6 +5,17 @@ public class Employee {
 	private Integer employeeId;
 	
 	private String employeeName;
+	
+	private Integer employeeAge;
+	
+
+	public Integer getEmployeeAge() {
+		return employeeAge;
+	}
+
+	public void setEmployeeAge(Integer employeeAge) {
+		this.employeeAge = employeeAge;
+	}
 
 	public Integer getEmployeeId() {
 		return employeeId;
